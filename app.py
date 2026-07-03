@@ -9,7 +9,7 @@ st.title("📊 Customer, Product & Profitability Analysis Dashboard")
 st.markdown("---")
 
 # ---------------- Load Data ----------------
-df = pd.read_csv("data/cleaned_data.csv")
+df = pd.read_csv("cleaned_data.csv")
 # ---------------- Sidebar ----------------
 st.sidebar.header("Filters")
 
